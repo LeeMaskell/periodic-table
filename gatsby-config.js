@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/periodic-table",
   /* Your site config here */
   siteMetadata: {
     title: 'Periodic Table',

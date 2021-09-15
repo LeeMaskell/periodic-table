@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -24,6 +25,7 @@
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "2.3.2"
   },
   "repository": {

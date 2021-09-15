@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Error = () => {
+export default function Error() {
     return (
         <div>
-            Error! Page not found. Naviagtae to the home page.
+            Error! Page not found. Navigate to the home page.
         </div>
     )
 }

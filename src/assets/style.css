@@ -16,31 +16,17 @@ body {
     rgba(152, 152, 152, 1) 0%,
     rgba(57, 57, 57, 1) 75%
   );
-  /* overflow: auto; */
-  /* overflow: scroll; */
+
 }
 :root {
-  /* colours */
-  --darkgrey: #080808;
-  --midgrey: #738a94;
-  --whitegrey: #e5eff5;
-  /* typography */
-  --defaultFontSize: 87.5%;
-  --smallText: 0.75rem;
-  --headingFont: "Open Sans";
   --bodyFont: "Inconsolata", serif;
-  /* rest */
-  --borderRadius: 1rem;
-  /* --letterSpacing: 1px;
-  --transition: 0.3s ease-in-out all;
-  --max-width: 1120px;
-  --fixed-width: 600px; */
+  
 }
 
 /* typography */
 h1 {
   font-family: var(--bodyFont);
-  color: var(--whitegrey);
+  color: #e5eff5;
   text-align: left;
 
 }
@@ -94,7 +80,6 @@ h4 {
   grid-row-end: 8;
   grid-column-start: 2;
   grid-column-end: 2;
-  /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
   align-items: center;
