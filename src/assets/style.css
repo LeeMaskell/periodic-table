@@ -55,7 +55,7 @@ h4 {
 .table-grid {
   padding-top: 5%;
   display: grid;
-  grid-template: repeat(10, 5vw) / repeat(18, 5vw);
+  grid-template: repeat(11, 4vw) / repeat(18, 4vw);
   justify-content: center;
 }
 .hydrogen-noble {
@@ -125,7 +125,7 @@ h4 {
 
 /* element items */
 .element {
-  width: 5vw;
+  width: 4vw;
   border: 3px solid white;
   color: white;
   text-align: center;
@@ -192,8 +192,8 @@ h4 {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
 }
 .element-other-non-metals {
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   text-align: center;
   border: 3px solid purple;
   border-style: double;
@@ -213,8 +213,8 @@ h4 {
 .element-other-metals {
   color: white;
   border: 3px solid white;
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   text-align: center;
   border-style: double;
   color: white;
@@ -234,8 +234,8 @@ h4 {
   border: 3px solid green;
   color: green;
   border-style: double;
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -255,8 +255,8 @@ h4 {
   border: 3px solid skyblue;
   color: skyblue;
   border-style: double;
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -426,4 +426,36 @@ p {
     font-size: 0.5rem;
   }
 }
+
+@media only screen and (max-width: 740px) {
+  h2 {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 0.6rem;
+  }
+  .atomic-mass {
+    padding-top: 0;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+
+  .element-content {
+    margin-top: 0;
+  }
+  .atomic-number {
+    display: none;
+  }
+  .symbol {
+    font-size: 1rem;
+  }
+  .name {
+    display: none;
+  }
+  .mass {
+    display: none;
+  }
+}
+
 
