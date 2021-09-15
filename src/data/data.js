@@ -1,4 +1,3 @@
-import Alkali from "../components/Alkali";
 export const hydrogenException = [
     {
         name: "Hydrogen",
