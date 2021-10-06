@@ -373,7 +373,7 @@ h4 {
 }
 p {
   font-family: var(--bodyFont);
-  font-size: 1rem;
+  font-size: 0.75rem;
   height: 1.25rem;
 }
 
@@ -408,10 +408,16 @@ p {
     font-size: 1rem;
   }
   h3 {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
   h4 {
     font-size: 0.5rem;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+  .details {
+    /* margin-bottom: 0.5rem; */
   }
   .atomic-number {
     font-size: 0.5rem;
@@ -432,7 +438,7 @@ p {
     font-size: 0.9rem;
   }
   h3 {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .atomic-mass {
     padding-top: 0;
@@ -440,7 +446,9 @@ p {
   p {
     font-size: 0.5rem;
   }
-
+  .details {
+    margin: 0;
+  }
   .element-content {
     margin-top: 0;
   }
